@@ -1,0 +1,39 @@
+commit 521c6ff90d838229c2611c3f969b7ecb0d480705
+Author: Rob Dale Black <rdb5063@cs.rit.edu>
+Date:   Thu Nov 15 23:48:40 2018 -0500
+
+    Fixed all compiler warnings.
+
+commit 60c4cea130ce23da6abb54d01d6e8c98f62401fd
+Author: Rob Dale Black <rdb5063@cs.rit.edu>
+Date:   Thu Nov 15 23:40:40 2018 -0500
+
+    Added Docstrings to all files. Fixed all output to STDERR and fixed
+    commandline argument parsing.
+
+commit 070e681cf28f1b206ef10f51920386d61ed3015f
+Author: Rob Dale Black <rdb5063@cs.rit.edu>
+Date:   Thu Nov 15 23:00:51 2018 -0500
+
+    Everything works. Need to work on freeing malloced memory.
+
+commit d61c3715304d858066fe736687f687e3152fd151
+Author: Rob Dale Black <rdb5063@cs.rit.edu>
+Date:   Thu Nov 15 22:26:13 2018 -0500
+
+    Fixed float (core dumped) exception. Ncurses works but has bugs.
+
+commit 707f34623641cd9ff6b270858c844a6a5d070a82
+Author: Rob Dale Black <rdb5063@cs.rit.edu>
+Date:   Thu Nov 15 22:07:43 2018 -0500
+
+    Implemented multithreading and the Racer structure. Need to fix a
+    floating point errror (cored dumped). Ncurses is in the works.
+
+commit 5ae7116b3e24705a4894aac22fe564c34481f6fd
+Author: Rob Dale Black <rdb5063@cs.rit.edu>
+Date:   Mon Nov 12 19:51:15 2018 -0500
+
+    Stubbed out all files. Created a utils file for non-task related
+    implementations. racer.c implements racer.h. Pt-cruisers in the main
+    file.
